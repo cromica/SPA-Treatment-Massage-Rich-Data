@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPATreatment", "SPATreatment\SPATreatment.csproj", "{D54CF0FC-BC77-4CA0-A389-84B6178CA6D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPATreatment.DataAccess", "SPATreatment.DataAccess\SPATreatment.DataAccess.csproj", "{709F3388-4BCB-4269-865C-E2FFC4358B26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D54CF0FC-BC77-4CA0-A389-84B6178CA6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54CF0FC-BC77-4CA0-A389-84B6178CA6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54CF0FC-BC77-4CA0-A389-84B6178CA6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709F3388-4BCB-4269-865C-E2FFC4358B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709F3388-4BCB-4269-865C-E2FFC4358B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709F3388-4BCB-4269-865C-E2FFC4358B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709F3388-4BCB-4269-865C-E2FFC4358B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
