@@ -158,9 +158,17 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Content Include="app\app.js" />
+    <Content Include="app\common\common.js" />
     <Content Include="app\config.route.js" />
     <Content Include="app\events\events.html" />
+    <Content Include="app\events\events.js" />
+    <Content Include="app\layout\footer.html" />
     <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\topNav.html" />
+    <Content Include="app\services\datacontext.js" />
+    <Content Include="app\services\entityManagerFactory.js" />
+    <Content Include="app\services\model.js" />
+    <Content Include="app\speakers\speakers.html" />
     <Content Include="App_Data\SPATreatment.sdf" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

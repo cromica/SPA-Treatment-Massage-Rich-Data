@@ -14,13 +14,23 @@ namespace SPATreatment.DataAccess
     {
         private readonly EFContextProvider<SPATreatmentDbContext> contextProvider = new EFContextProvider<SPATreatmentDbContext>();
 
-        public string Metadata { get; set; }
+        public string Metadata {
+            get { return contextProvider.Metadata(); }
+        }
 
-        public IQueryable<Event> Events { get; set; }
+        public IQueryable<Event> Events
+        {
+            get { return Context.Events; }
+        }
 
         public SaveResult SaveChanges(JObject saveBundle)
         {
             return contextProvider.SaveChanges(saveBundle);
+        }
+
+        public SPATreatmentDbContext Context
+        {
+            get { return contextProvider.Context; }
         }
     }
 }
