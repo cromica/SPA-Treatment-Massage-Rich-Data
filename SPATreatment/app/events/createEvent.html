@@ -1,0 +1,25 @@
+﻿<div class="container" data-ng-controller="createEvent as vm">
+    <div class="row">
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="eventDate" class="control-label col-md-2">Event Date</label>
+                <div class="col-md-10">
+                    <input id="eventDate" type="text" class="form-control" placeholder="Event date" data-ng-model="vm.eventDate">
+                </div>
+                <label for="totalNumber" class="control-label col-md-2">Total Number of places</label>
+                <div class="col-md-10">
+                    <input id="totalNumber" type="text" class="form-control" placeholder="Total number of places" data-ng-model="vm.totalNumberOfPlaces">
+                </div>
+                <label for="ocupiedPlaces" class="control-label col-md-2">Ocupied places</label>
+                <div class="col-md-10">
+                    <input id="ocupiedPlaces" type="text" class="form-control" placeholder="Ocupied places" data-ng-model="vm.ocupiedPlaces">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="button" class="btn btn-default" data-ng-click="vm.addEvent()">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,10 +1,42 @@
 ﻿<div class="container" data-ng-controller="events as vm">
     <div class="row">
-        <h1><small>Events</small></h1>
-        <div class="list-group">
-            
-            <a href="#" class="list-group-item active" data-ng-repeat="e in vm.events"> {{e.name}} </a>
-         
+        
+        <div class="panel panel-default">
+            <div class="panel-heading"> Event</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Event Date
+                        </th>
+                        <th>
+                            Total number of places
+                        </th>
+                        <th>
+                            Ocupied places
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                       <tr data-ng-repeat="e in vm.events">
+                           <td>
+                              {{e.name}}
+                           </td>
+                           <td>
+                              {{e.eventDate}}
+                           </td>
+                           <td>
+                              {{e.totalNumberOfPlaces}}
+                           </td>
+                           <td>
+                               {{e.ocupiedPlaces}}
+                           </td>
+                       </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

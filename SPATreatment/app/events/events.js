@@ -26,15 +26,15 @@
 
         }
         
+        function getEvents() {
+            return datacontext.getEvents()            .then(function (data) {
+                vm.events = data;
+            });
+        }
+        
         //function getEvents() {
         //    vm.events = datacontext.getEvents();
         //}
-        
-        function getEvents() {
-            return datacontext.getEvents()
-                .then(function (data) {
-                    vm.events= data;
-                });
-        }
+       
     }
 })();

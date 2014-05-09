@@ -41,7 +41,19 @@
                     }
                         
                 }
-            }
+            },
+             {
+                 url: '/createEvent',
+                 config: {
+                     templateUrl: '/app/events/createEvent.html',
+                     title: 'Create Event',
+                     settings: {
+                         nav: 1,
+                         content: '<i class="fa fa-home"></i>'
+                     }
+
+                 }
+             }
         ];
     }
 
